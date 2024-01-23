@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title></title>
-    <link rel="stylesheet"href="/ruta-al-archivo/styles.css">
+    <link rel="stylesheet"href="styles.css">
 
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
 rel="stylesheet" />
@@ -12,28 +12,28 @@ rel="stylesheet" />
 </head>
 
 <body>
-    <header>
-
-        <div class="navbar">
-            <nav>
-                <ul>
-                  <li><a href="#inicio">Inicio</a></li>
-                  <li><a href="#acerca">Acerca de</a></li>
-                  <li><a href="#servicios">Servicios</a></li>
-                  <li><a href="#contacto">Contacto</a></li>
-                </ul>
-              </nav>
-
-        </div>
-           
-        <h1></h1>
-
+    <header class="header-section">
         <img src="images/logo-mercado-liebre.svg" alt="logo de mercado liebre">
 
-        <p>Lugar para poner barra de busqueda</p>
+        
+        
+        <div class="search-bar">
+            
+            <input type="search" placeholder="Buscar productos, marcas">
+            <div class="search-container">
+                <i class="fas fa-search"></i>
+        </div>
+    </div>
+           
+        <div class="login-bar">
+            <p>Compra en cuotas y sin tarjeta de crédito</p>
+            <i class="fas fa-search"></i>
+        </div>
+        
     
-        <p>Compra en cuotas y sin tarjeta de crédito</p>
        
+
+        <div class="navbar">
         <ol>
             <li>Ofertas</li>
             <li>Tiendas oficiales</li>
@@ -48,14 +48,13 @@ rel="stylesheet" />
             
         </ol>
    
-
-    <div class="login-bar">
-        
-      </div>
+    </div>
       
-      <div class="search-bar">
-        
-      </div>
+      
+
+      <div class="burger-menu">
+        <i class="fas fa-bars"></i>
+        </div>
 
     </header>
     
